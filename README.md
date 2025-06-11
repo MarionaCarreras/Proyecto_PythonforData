@@ -52,8 +52,6 @@ La limpieza y transformación de los datos se llevó a cabo en Python utilizando
 - pandas: Para la manipulación y análisis de datos estructurados.
 - numpy: Para operaciones matemáticas y manejo de matrices.
 - sklearn: Para la imputación de valores nulos y técnicas avanzadas de preprocesamiento:
-    - SimpleImputer
-    - IterativeImputer
     - KNNImputer
 - seaborn: Para la visualización de gráficos estadísticos.
 - matplotlib: Para la visualización básica y personalizada de datos.
