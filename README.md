@@ -76,11 +76,19 @@ La limpieza y transformación de los datos se llevó a cabo en Python utilizando
 
 ### **Visualizaciones y Resultados**
 
+Se emplearon diversas herramientas gráficas para visualizar y analizar las respuestas a las preguntas planteadas, entre las que destacan:
 
+- Histogramas: Utilizados para examinar cómo se distribuyen variables como la edad, los ingresos y la duración de las llamadas.
+
+- Gráficos de líneas: Ideales para identificar patrones y tendencias a lo largo del tiempo en la duración de las campañas y en la reacción de los clientes.
+
+- Diagramas de dispersión: Permitieron explorar las relaciones entre distintas características de los clientes, como la duración de las llamadas frente al número de contactos realizados.
+
+- Gráficos circulares: Empleados para comparar las tasas de conversión entre la campaña actual y la anterior, facilitando una visión rápida de los resultados.
 
 
 ### **Conclusiones y Recomendaciones**
-
+Este estudio ofrece información clave que puede ayudar a afinar la segmentación de clientes y a potenciar la eficacia de futuras campañas de marketing, teniendo en cuenta aspectos como las características demográficas y los canales de comunicación que generan mejores resultados.
 
 ### **Estructura del Proyecto**
 
@@ -89,12 +97,11 @@ La limpieza y transformación de los datos se llevó a cabo en Python utilizando
 ├── Data
 │   ├── bank-additional.csv
 │   └── customer-details.xlsx
+│   └── bank-limpio.csv
+│   └── bank-limpio-sin-nulos.csv
 │
-├── notebooks
-│   └── EDA_bank.ipynb
+├── EDA_bank.ipynb
 │
 ├── Informe_Final.pdf
-|
-├── DataProject_ Proyecto EDA con Python.docx
 |
 └── README.md
